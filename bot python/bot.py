@@ -11,6 +11,7 @@ import spicy
 
 with open("contenido.json", encoding='utf-8') as archivo:
     datos = json.load(archivo)
+#Aqui en el try
 try:
     with open("variables.pickle","rb") as archivoPickle:
         palabras, tags, entrenamiento, salida = pickle.load(archivoPickle)
@@ -56,6 +57,7 @@ except:
     salida = numpy.array(salida)
     with open("variables.pickle","wb") as archivoPickle:
         pickle.dump((palabras, tags, entrenamiento, salida))
+#hasta aqui va el try
 from tensorflow.python.framework import ops
 ops.reset_default_graph() # 
 
