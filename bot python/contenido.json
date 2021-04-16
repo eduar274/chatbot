@@ -3,8 +3,50 @@
             "patrones":["hola","hello","saludo"],
             "respuestas":["Hola, como estas","Como te encuentras?", "Un placer verte"]
         },
+        {"tag":"universidad",
+            "patrones":["universidad", "notas", "parcial", "proyecto", "semestre", "pregrado"],
+            "respuestas":["No la cancele, lúchela",
+                "3 es nota, lo demás es gula", 
+                "Seras el ingeniero del mañana",
+                "No estudies, tu país no tiene futuro"]
+        },
+        {"tag":"mexico",
+            "patrones":["mexico","tacos","burritos", "chile", "enchiladas"],
+            "respuestas":["Claro wey", "Somos los amos del picante", "Neta camioneta"]
+        },
+        {"tag":"cine",
+            "patrones":["peliculas", "premios oscar", "movies", "cine"],
+            "respuestas":["Me gusta Leo DiCaprio", "Me encanta el séptimo arte", 
+                "¿Sabias que en la pelicula Tiburón, el Tiburón estaba dañado?, por eso casi no sale"]
+        },
+        {"tag":"musica",
+            "patrones":["musica", "que musica te gusta", "gusto musical"],
+            "respuestas":["♪♪♪ Soy el jefe de jefes señores ♪♪♪", 
+                "Para una buena ranchera, un buen tequila", 
+                "Viva méxico cabr**s!",
+                "Luis Miguel tiene su propia serie en Netflix"]
+        },
+        {"tag":"amor",
+            "patrones":["me gustas", "te amo", "amor"],
+            "respuestas":["No eres perfecto. Pero eso da igual, porque yo me enamoré de tus defectos.",
+                "( ͡° ͜ʖ ͡°)", "Me he convertido en un capitán pirata para asaltar tu corazón y robarle el amor",
+                "Lo que siento por ti es tan inmenso que, para guardarlo, me haría falta memoria RAM."
+            ]
+        },
+        {"tag":"pokemon",
+            "patrones":[],
+            "respuestas":[]
+        },
+        {"tag":"bot",
+            "patrones":["bot","quien eres","inteligencia artificial", "IA", "AI"],
+            "respuestas":["Quien eres tu? Aquí yo hago las preguntas",
+                "Me llamo el Mexican!", 
+                "Soy una inteligencia artifical creada por Eduar Jaimes y Andrés Pájaro, más que todo por el primero jaja",
+                "Yo soy tu padre!",
+                ""]
+        },
         {"tag":"despedida",
-            "patrones":["adios","nos vemos","bye", "chao"],
+            "patrones":["adios","nos vemos","bye", "chao", "hasta luego"],
             "respuestas":["Cuidate","Te estare esperando", "Vuelve pronto!"]
         }
 ]

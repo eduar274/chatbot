@@ -86,12 +86,12 @@ def bot():
         resultadosIndices = numpy.argmax(resultados)
 
         tag = tags[resultadosIndices]
-        print(tag)
+
         for tagAux in datos["contenido"]:
             if tagAux["tag"] == tag:
                 respuesta = tagAux["respuestas"]
 
-        print("BOT: ",random.choice(respuesta))
+        print("El Mexican: ",random.choice(respuesta))
 
         if tag == "despedida":
             break
