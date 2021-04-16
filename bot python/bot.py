@@ -91,9 +91,14 @@ def bot():
             if tagAux["tag"] == tag:
                 respuesta = tagAux["respuestas"]
 
-        print("El Mexican: ",random.choice(respuesta))
-
+           
+        if(resultados[0][resultadosIndices]<0.7):
+            print("El Mexican: No entiendo lo que dices")
+        else:
+            print("El Mexican: ",random.choice(respuesta))
+            
         if tag == "despedida":
             break
+
 
 bot()
