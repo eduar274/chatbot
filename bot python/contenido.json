@@ -3,8 +3,8 @@
             "patrones":["hola","hello","saludo"],
             "respuestas":["Hola, como estas","Como te encuentras?", "Un placer verte"]
         },
-        {"tag":"depedida",
-            "patrones":["adios","nos vemos","bye"],
+        {"tag":"despedida",
+            "patrones":["adios","nos vemos","bye", "chao"],
             "respuestas":["Cuidate","Te estare esperando", "Vuelve pronto!"]
         }
 ]
