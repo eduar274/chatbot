@@ -34,8 +34,8 @@
             ]
         },
         {"tag":"pokemon",
-            "patrones":[],
-            "respuestas":[]
+            "patrones":["pokemon"],
+            "respuestas":["frodagier","pikachu","Lucario","articuno","Sabias que la probabilidad de encontrar un pokemon multicolor de 1/4096"]
         },
         {"tag":"bot",
             "patrones":["bot","quien eres","inteligencia artificial", "IA", "AI"],
